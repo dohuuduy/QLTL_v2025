@@ -1,0 +1,1 @@
+- `ma_hoso` Valid_If (mau ma ISO): `REGEX_MATCH([ma_hoso], "^(POL|SOP|WI|REC)-[A-Z]{2,}-[0-9]{2,}$")`
