@@ -1,0 +1,72 @@
+📂 1. Cách tổ chức thư mục khi có chính sách cha – con
+✅ Cách 1: Thư mục cha – con lồng nhau
+
+HR-CS-01_Chinh_sach_Nhan_quyen/
+├─ CS01_Chinh_sach_Nhan_quyen.pdf (C1)
+├─ HR-CS-05_Chinh_sach_Tu_do_hiep_hoi/
+│ ├─ CS05_Chinh_sach_Tu_do_hiep_hoi.pdf (C1 con)
+│ ├─ QT_Tu_do_hiep_hoi.pdf (C2)
+│ ├─ HD_Tu_do_hiep_hoi.pdf (C3)
+│ └─ BM_Tu_do_hiep_hoi.pdf (C4)
+├─ HR-CS-06_Chinh_sach_Lao_dong_chua_thanh_nien/
+│ ├─ CS06_Chinh_sach_LDCTN.pdf
+│ ├─ QT_LDCTN.pdf
+│ └─ BM_LDCTN.pdf
+└─ HR-CS-07_Chinh_sach_Phong_chong_cuong_buc/
+├─ CS07_Chinh_sach_Cuong_buc.pdf
+├─ QT_Cuong_buc.pdf
+└─ BM_Cuong_buc.pdf
+
+👉 Ưu điểm: trực quan, dễ thấy quan hệ cha – con.
+👉 Nhược điểm: thư mục có thể lồng sâu, hơi khó tìm nhanh.
+
+✅ Cách 2: Phẳng nhưng dùng mã số cha–con
+
+Một thư mục duy nhất: HR-CS-01_Chinh_sach_Nhan_quyen/
+├─ HR-CS-01_CS_Nhan_quyen.pdf
+├─ HR-CS-01.05_CS_Tu_do_hiep_hoi.pdf
+├─ HR-CS-01.05-QT01_QT_Tu_do_hiep_hoi.pdf
+├─ HR-CS-01.06_CS_Lao_dong_chua_thanh_nien.pdf
+├─ HR-CS-01.06-QT01_QT_Quan_ly_LDCTN.pdf
+├─ HR-CS-01.07_CS_Phong_chong_cuong_buc.pdf
+├─ HR-CS-01.07-QT01_QT_Cuong_buc.pdf
+└─ …
+
+👉 Ưu điểm: tất cả tài liệu nằm cùng cấp → dễ tìm kiếm.
+👉 Nhược điểm: phải dựa vào mã để nhận biết quan hệ cha–con.
+
+🔢 2. Nguyên tắc đánh mã số cha – con
+
+Chính sách tổng (cha):
+
+HR-CS-01 → Chính sách Nhân quyền
+
+Chính sách con:
+
+HR-CS-01.05 → Chính sách Tự do hiệp hội & Thương lượng
+
+HR-CS-01.06 → Chính sách Lao động chưa thành niên
+
+HR-CS-01.07 → Chính sách Phòng chống cưỡng bức
+
+Quy trình/Hướng dẫn/Biểu mẫu trực thuộc chính sách con:
+
+HR-CS-01.05-QT01 → Quy trình Tự do hiệp hội
+
+HR-CS-01.06-BM01 → Biên bản giám sát LĐCTN
+
+HR-CS-01.07-HD01 → Hướng dẫn giám sát cưỡng bức
+
+👉 Nhìn vào mã:
+
+HR-CS-01 = Chính sách Nhân quyền (cha).
+
+HR-CS-01.05 = Chính sách con thuộc Nhân quyền.
+
+HR-CS-01.05-QT01 = Quy trình thuộc Chính sách con.
+
+🎯 Kết luận
+
+Nếu công ty chưa có phần mềm quản lý tài liệu (DMS/AppSheet) → nên dùng Cách 1 (thư mục cha–con) cho dễ nhìn trực quan.
+
+Nếu công ty quản lý bằng Excel/AppSheet/DMS → nên dùng Cách 2 (phẳng + mã cha–con) để truy vấn nhanh.
